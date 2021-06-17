@@ -1,0 +1,1587 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@font-face {
+    font-family: lobster;
+    src: url('/font/Lobster_1.3.otf');
+}
+@font-face {
+    font-family: dosis;
+    src: url('/font/Dosis-SemiBold.otf');
+}
+@font-face {
+    font-family: dosis_regular;
+    src: url('/font/Dosis-Regular.otf');
+}
+
+@font-face {
+    font-family: blisfull;
+    src: url('/font/BlissfulThinking.otf');
+}
+@font-face {
+    font-family: granlin;
+    src: url('/font/granlin.ttf');
+}
+@font-face {
+    font-family: Adam;
+    src: url('/font/Adam.otf');
+}
+@font-face {
+    font-family: garamond;
+    src: url('/font/AGaramondPro-Regular.otf');
+}
+@font-face {
+    font-family: andada;
+    src: url('/font/Andada-Regular.otf');
+}
+@font-face {
+    font-family: bebasNeue;
+    src: url('/font/BebasNeueRegular.otf');
+}
+@font-face {
+    font-family: bluehighway;
+    src: url('/font/blue highway linocut.otf');
+}
+@font-face {
+    font-family: cinzel;
+    src: url('/font/Cinzel-Regular.otf');
+}
+@font-face {
+    font-family: Grandstander-clean;
+    src: url('/font/Grandstander-clean.ttf');
+}
+
+
+body {
+    margin-bottom: -2000px;
+
+
+}
+
+.bodyprimary
+{
+    background-image: url('/images/Perkedelku-Web-MIDBACKGROUND.png');
+    height: 500px; 
+
+}
+.parallaxx {
+    background-image: url('/images/Perkedelku-Web-MIDBANNER.png');
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax {
+    /*    background-image: url('/images/Perkedelku-Web-MIDBANNER.png');*/
+    /* Full height */
+    height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.borderpane {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+.header {
+    font-family: 'Oswald', sans-serif;
+}
+
+.white {
+    color : #fff;
+}
+
+.brown {
+    color : #a67c52;
+}
+
+
+img.homecakes {
+    width: 100%;
+}
+
+.contact {
+    background-image: url("/images/IsabogaPat-Web-HOME-Background-ContactUs.jpg");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about {
+    background-image: url("/images/IsabogaPat-Web-HOME-Background-ContactUs.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    min-height: 500px;
+    color: black;
+}
+
+.cont_about {
+    padding-bottom: 20px;
+}
+
+input.pastry {
+    border: 1px solid #a67c52;
+    padding:5px;
+    border-radius: 5px;
+    color: #a67c52;
+}
+
+td.main1{
+    width: 25%;
+}
+td.main2{
+    width: 50%;
+}
+td.main3{
+    width: 25%;
+}
+
+img.line_contact {
+    margin-top: -100px;
+    margin-bottom: -80px;
+}
+
+.row {
+    padding-right: 0px;
+    margin-right: 0px;
+
+}
+
+.ron{
+    /*    background-image: url('/images/Perkedelku-Web-MIDBACKGROUND.png');*/
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+
+select.size {
+    font-family: MyriadPro;
+    background-color: transparent;
+    color: #a67c52;
+    border: 1px solid #a67c52;
+    padding: 5px;   
+}
+
+.main_container {
+    background-color: white!important;
+    width: 100%;
+    font-family: MyriadPro;
+}
+
+td.list{
+    padding: 5px;
+}
+
+th.list{
+    padding: 5px;
+}
+
+img.about_image {
+    width:400px;
+}
+
+ul.social-media{
+    list-style-type: none;
+}
+
+.cont_content {
+    margin-top: -30px;
+}
+/* GOOGLE MAPS STYLE */
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+    height: 500px;
+    width: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+    width: 200px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+.contheader {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    margin-bottom: -250px;
+}
+
+
+.product_home {
+    /*    background-image: url("/images/Perkedelku-Web-MIDBACKGROUND.png");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.healty {
+    padding: -20px;
+    /*background-color: rgba(255, 255, 255,0.5);*/
+    background-color:transparent;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+h1.lobster{
+    font-family: 'blisfull';
+    /*    color: #D10824;*/
+    color: #000;
+    font-size: 60px;
+}
+h1.lobster4{
+    font-family: 'granlin';
+    color: #000;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1.content_perkedelku{
+    font-family: 'granlin';
+    color: #000;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    left: 900px;
+}
+.content_perkedelku{
+    font-family: 'granlin';
+    color: #000;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    left: 900px;
+}
+.blisfull {
+    font-family: 'blisfull';
+    color: #000;
+}
+.blisfull2 {
+    font-family: 'blisfull';
+    color: #000;
+    font-size: 20px; 
+}
+.blisfull3 {
+    font-family: 'blisfull';
+    color: #000;
+    font-size: 25px;
+}
+.blisfull4 {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 40px;
+}
+.blisfull5 {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 20px;
+}
+.blisfull6 {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 20px;
+
+
+}
+.readmoreblisfull {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.titlearticleblisfull {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 40px;
+}
+h1 {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+.blisfull7 {
+    font-family: 'blisfull';
+    color: #000;
+    font-size: 20px;
+}
+
+.granlin {
+    font-family: 'granlin';
+    color: #fff;
+    font-size: 20px;
+}
+.textlogin {
+    font-family: 'granlin';
+    /*    color: #D10824;*/
+    color: #000;
+    font-size: 20px;
+    align-content: center;
+}
+.bebasNeue {
+    font-family: 'bebasNeue';
+    color: #f00;
+    position: relative;
+    right: 200px;
+    font-size: 60px;
+}
+.articaltittle {
+    font-family: 'Grandstander-clean';
+    /*    color: #f00;*/
+    color: #000;
+    position: relative;
+    left: 0px;
+    top: 60px;
+    font-size: 70px;
+}
+.articalcontent {
+    font-family: 'bebasNeue';
+    color: #f00;
+    font-weight: bold;
+    position: relative;
+    right: 200px;
+    font-size: 20px;
+}
+.articalreadmore {
+    font-family: 'granlin';
+    /*    color: #f00;*/
+    color: #000;
+
+    font-weight: bold;
+    position: relative;
+    left: 0px;
+    top:70px;
+    font-size: 30px;
+    text-align: justify;
+}
+.articalmore {
+    font-family: 'granlin';
+    /*        color: #f00;*/
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    left: 0px;
+    top :70px;
+    font-size: 30px;
+    text-align: left; 
+
+}
+/* mouse over link */
+.articalreadmore a:hover {
+    color: #D10824;
+    /*    color: #000;*/
+    text-decoration: none;
+}
+.textartical {
+    font-family: 'granlin';
+    color: #f00;
+}
+.textfooter {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 25px;
+}
+.textfooter1 {
+    font-family: 'granlin';
+    color: #000;
+    font-size: 20px;
+}
+.Adam {
+    font-family: 'Adam';
+    color: #f00;
+    font-weight: bold;
+}
+.garamond {
+    font-family: 'garamond';
+    color: #f00;
+    font-weight: bold;
+}
+
+.dosis_regular {
+    font-family: 'garamond';
+    color: #000;
+}
+
+img.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: 99;
+
+}
+
+img.line_home {
+    position: relative;
+    width: 103%;
+    left: -22px;
+    top: -11px;
+}
+
+img.line_home2{
+    position: relative;
+    width: 103%;
+    left: -22px;
+    top: -11px;
+}
+
+.about_cont {
+    padding: 50px;
+}
+
+button.nutrijell {
+    font-family: 'andada';
+    background-color: #d10824;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border:0px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: -3px;
+}
+button.subscribe {
+    font-family: 'andada';
+    background-color: #d10824;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border:0px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: -3px;
+}
+
+input.custom, select.custom {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+img.logo_main {
+    width: 120%;
+}
+
+.cont_products {
+    padding-top: 0px;
+    padding-bottom: -200px;
+    font-size: 20px;
+}
+<!--zoom image-->
+.itemzoom {
+    position: relative;
+    margin-top: -8px;
+    margin-left: -100px;
+    overflow: hidden;
+
+
+}
+.itemzoom img {
+    max-width: 100%!important;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.itemzoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+<!--image modal-->
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 1; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 0.8;
+}
+img.logoicon {
+    width: 15%;
+    margin-bottom: -75px;
+}
+.footerhome {
+    margin-bottom: -160px;
+
+}
+img.logoicon1 {
+    width: 13%;
+    margin-bottom: -80px;
+    margin-left: 0px;
+}
+img.logoicon2 {
+    width: 10%;
+    position: relative;
+    top: 22px;
+    left: 73px;
+    /*    margin-left: -10px;
+        margin-top: 50px;*/
+    /*    -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        z-index: 99;*/
+}
+img.logoicon3 {
+    width: 19%;
+    position: relative;
+    top: 25px;
+    left: 0px;
+    /*    margin-left: -10px;
+        margin-top: 50px;*/
+    /*    -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        z-index: 99;*/
+}
+
+.paddingfooter {
+    margin-top: 150px
+}
+.imagecontent {
+
+    width: 100%;
+}
+.kentangimg {
+    position:absolute; 
+    top:-25px;
+    left:690px;
+    /*    -ms-transform: rotate(20deg);  
+        -ms-transform-origin: 20% 40%;  
+        -webkit-transform: rotate(20deg);   
+        -webkit-transform-origin: 20% 40%;  
+        transform: rotate(20deg);
+        transform-origin: 20% 40%;*/
+    -ms-transform: rotate(5deg);  
+    -ms-transform-origin: 20% 40%;  
+    -webkit-transform: rotate(5deg);   
+    -webkit-transform-origin: 20% 40%;  
+    transform: rotate(5deg);
+    transform-origin: 20% 40%;
+}
+.kentangsize{
+    width: 150%;
+}
+.paddingmid {
+
+    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-left: 110px;
+
+}
+.swapp img:last-child {
+    opacity: 0;  
+}
+.swapp:hover img:last-child {
+    opacity: 1;  
+}
+.swapp:hover img:first-child {
+    opacity: 0;   
+}
+.imagearrow {
+
+    width: 30%;
+    padding-top: 140px;
+    padding-left: -10px;
+
+
+}
+.imagearrowleft {
+
+    width: 30%;
+    padding-top: 140px;
+    padding-left: -10px;
+
+}
+.paddingtopcontent{
+    padding-top: 230px;
+}
+.detailimg {
+    padding-top: 0px;
+    margin-top: 250px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: -220px;
+    margin-left: 20px;
+
+}
+.detailimg_perkedelku {
+    padding-top: 20px;
+    margin-top: 0px;
+    width: 350px;
+    height: 900px;
+    padding-bottom: 50px;
+
+}
+.paddingtopcontentdetail{
+    padding-top: 180px;
+    padding-left:110px;
+}
+.videoclass {
+    position:absolute;
+    top: 2120px;
+    left: 210px;
+}
+.vdc {
+    width: 40%;
+}
+.paddingartikel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    /*    background-image: url('/images/Perkedelku-Web-MIDBACKGROUND.png');*/
+}
+.preloader .loading {
+    position:absolute; 
+    top:-25px;
+    left:690px;
+    /*    -ms-transform: rotate(20deg);  
+        -ms-transform-origin: 20% 40%;  
+        -webkit-transform: rotate(20deg);   
+        -webkit-transform-origin: 20% 40%;  
+        transform: rotate(20deg);
+        transform-origin: 20% 40%;*/
+    -ms-transform: rotate(5deg);  
+    -ms-transform-origin: 20% 40%;  
+    -webkit-transform: rotate(5deg);   
+    -webkit-transform-origin: 20% 40%;  
+    transform: rotate(5deg);
+    transform-origin: 20% 40%;
+}
+.nullpadding {
+    margin-top: -330px;
+
+}
+input[class=expand] {
+    width: 42px;
+    border: none;
+    border-radius: 5px;
+    height: 42px;
+    font-size: 20px!important;
+    padding-left : 64px!important;
+    background-color: #D10824;
+    background-image: url('/images/Perkedelku-Web-SEARCHedit.png');
+    background-repeat: no-repeat; 
+    background-size: 64px 48px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left: 0px!important;
+    margin-top: 0px!important;
+    position: relative;
+    top: -35px;
+    left: -23px;
+    color: #fff;
+}
+input[class=expand]:focus {
+    width: 50%;
+}
+
+input[class=expand]::placeholder {
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 20px!important;
+}
+.Grandstander-clean {
+    font-family: 'Grandstander-clean';
+    color: #000;
+    font-size: 20px;
+}
+.video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 50%;
+}
+.topimage {
+    position: relative;
+    left: 0px;  
+}
+.mid_article {
+    margin-left: 350px;
+
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    td.main1{
+        width: 75%;
+    }
+    td.main2{
+        width: 0%;
+    }
+    td.main3{
+        width: 25%;
+    }
+    .contheader {
+        position: -webkit-sticky;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 999;
+        margin-bottom: -200px!important;
+    }
+
+    img.about_image {
+        width:100%;
+    }
+    .cont_content {
+        margin-top: 0px;
+    }
+    .logo {
+        position: relative;
+        left: 0;
+        top:-35px;
+    }
+    .line_home {
+        display: none;
+    }
+    .line_home2 {
+        display: none;
+    }
+    .about_cont {
+        padding: 20px!important;
+    }
+    img.logo_main {
+        width: 120%;
+    }
+    .cont_products {
+        padding-top: 0px!important;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    img.logoicon1 {
+        width: 33%;
+        margin-bottom: 50px;
+        margin-left: 5px;
+    }
+    img.logoicon2 {
+        width: 18%;
+        margin-bottom: 0px;
+        margin-left: -10px;
+    }
+    .healty {
+        padding: 150px;
+        /*background-color: rgba(255, 255, 255,0.5);*/
+        background-color:transparent;
+        margin-bottom: 10px;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    .articaltittle {
+        font-family: 'Grandstander-clean';
+        /*        color: #f00;*/
+        color: #000;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 28px;
+    }
+    .articalreadmore {
+        font-family: 'granlin';
+        /*        color: #f00;*/
+        color: #000;
+        font-weight: bold;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .articalmore {
+        font-family: 'granlin';
+        /*        color: #f00;*/
+        color: #000;
+        font-weight: bold;
+        position: relative;
+        left: -10px;
+        top :10px;
+        font-size: 18px;
+        text-align: left; 
+
+    }
+    .footerhome {
+        margin-top: -160px;
+
+    }
+    .cont_products {
+        padding-top: 0px;
+        padding-bottom: -250px;
+        font-size: 20px;
+    }
+    .bodyprimary
+    {
+        /*        background-image: url('/images/Perkedelku-Web-MIDBACKGROUNDx.png');*/
+        border:0;
+    }
+    .paddingfooter {
+        margin-top: 0px;
+        margin-left : -20px;
+    }
+    .blisfull {
+        font-family: 'blisfull';
+        color: #D10824;
+        margin-left: 0px;
+    }
+    .blisfull5 {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 20px;
+    }
+    .readmoreblisfull {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    button.nutrijell {
+        font-family: 'andada';
+        background-color: #d10824;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border:0px;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-right: -30px;
+    }
+    button.subscribe {
+        font-family: 'andada';
+        background-color: #d10824;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border:0px;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-right: -30px;
+    }
+    input.custom, select.custom {
+        height: 34px;
+        padding: 0px 12px;
+        font-size: 12px;
+        line-height: 1.42857143;
+        color: #555555;
+        background-color: #ffffff;
+        background-image: none;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    .imagecontent {
+        width: 70%;
+        margin-left: 30px;
+    }
+    .spacecontent {
+        margin-top: 40px;
+    }
+    .kentangimg {
+        position:absolute; 
+        top:-10px;
+        left:420px;
+        -ms-transform: rotate(5deg);  
+        -ms-transform-origin: 20% 40%;  
+        -webkit-transform: rotate(5deg);   
+        -webkit-transform-origin: 20% 40%;  
+        transform: rotate(5deg);
+        transform-origin: 20% 40%;
+    }
+    .kentangsize{
+        width: 80%;
+    }
+    .paddingmid {
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left: -50px;
+
+    }
+    .textlogin {
+        font-family: 'granlin';
+        /*    color: #D10824;*/
+        color: #000;
+        font-size: 17px;
+        align-content: center;
+    }
+    <!--zoom image-->
+    .itemzoom {
+        position: relative;
+        margin-top: -8px;
+        margin-left: -100px;
+        overflow: hidden;
+
+
+    }
+    .itemzoom img {
+        max-width: 80%!important;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+
+    }
+    .itemzoom:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .imagearrow {
+
+        width: 30%;
+        padding-top: 100px;
+        padding-left: -10px;
+
+
+    }
+    .imagearrowleft {
+
+        width: 30%;
+        padding-top: 100px;
+        padding-left: -10px;
+
+    }
+    .videoclass {
+        position:absolute;
+        top: 1510px;
+        left: 100px;
+    }
+    .vdc {
+        width: 40%;
+    }
+    .paddingtopcontent{
+        padding-top: 120px;
+    }
+    .imgcontent{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .blisfull4 {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 30px;
+    }
+    .paddingartikel {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .titlearticleblisfull {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 30px;
+    }
+    .paddingtopcontentdetail{
+        padding-top: 0px;
+        padding-left:0px;
+    }
+    .detailimg {
+        padding-top: 0px;
+        margin-top: 250px;
+        width: 300px;
+        height: 300px;
+        margin-bottom: -220px;
+        margin-left: 20px;
+    }
+    h1.lobster4{
+        font-family: 'granlin';
+        color: #000;
+        font-size: 35px;
+        padding-top: 160px;
+        padding-bottom: 20px;
+    }
+    .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        /*        background-image: url('/images/Perkedelku-Web-MIDBACKGROUND.png');*/
+    }
+    .preloader .loading {
+        position:absolute; 
+        top:-25px;
+        left:690px;
+        /*    -ms-transform: rotate(20deg);  
+            -ms-transform-origin: 20% 40%;  
+            -webkit-transform: rotate(20deg);   
+            -webkit-transform-origin: 20% 40%;  
+            transform: rotate(20deg);
+            transform-origin: 20% 40%;*/
+        -ms-transform: rotate(5deg);  
+        -ms-transform-origin: 20% 40%;  
+        -webkit-transform: rotate(5deg);   
+        -webkit-transform-origin: 20% 40%;  
+        transform: rotate(5deg);
+        transform-origin: 20% 40%;
+    }
+    img.logoicon3 {
+        width: 35%;
+        position: relative;
+        top: 0px;
+        left: 5px;
+        /*    margin-left: -10px;
+            margin-top: 50px;*/
+        /*    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            z-index: 99;*/
+    }
+    input[class=expand] {
+        width: 42px;
+        border: none;
+        border-radius: 4px;
+        height: 42px;
+        font-size: 20px!important;
+        padding-left : 42px!important;
+        background-color: #D10824;
+        background-image: url('/images/Perkedelku-Web-SEARCHedit.png');
+        background-repeat: no-repeat; 
+        background-size: 42px 42px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        margin-left: 0px!important;
+        margin-top: 0px!important;
+        position: relative;
+        top: -65px;
+        left: -23px;
+        color: #fff;
+    }
+    input[class=expand]:focus {
+        width: 50%;
+    }
+
+    input[class=expand]::placeholder {
+        color: #fff;
+        opacity: 0.5;
+        text-align: center;
+        font-size: 20px!important;
+    }
+    .video {
+        position: relative;
+        top: 200px;
+        left: -40px;
+        width: 120%;
+        height: 50%;
+        padding-right: 0px;
+        padding-bottom: 150px;
+    }
+    .topimage {
+        position: relative;
+        left: 0px;  
+    }
+
+}
+@media (max-width: 767px) {
+    td.main1{
+        width: 75%;
+    }
+    td.main2{
+        width: 0%;
+    }
+    td.main3{
+        width: 25%;
+    }
+    .contheader {
+        position: -webkit-sticky;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 999;
+        margin-bottom: -115px!important;
+    }
+
+    img.about_image {
+        width:100%;
+    }
+    .cont_content {
+        margin-top: 0px;
+    }
+    .logo {
+        position: relative;
+        left: 0;
+        top:-30px;
+    }
+    .line_home {
+        display: none;
+    }
+    .line_home2 {
+        display: none;
+    }
+    .about_cont {
+        padding: 20px!important;
+    }
+    img.logo_main {
+        width: 140%;
+    }
+    .cont_products {
+        padding-top: 0px!important;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    img.logoicon1 {
+        width: 33%;
+        margin-bottom: 50px;
+        margin-left: 5px;
+    }
+    img.logoicon2 {
+        width: 24%;
+        margin-bottom: 0px;
+        margin-left: -10px;
+    }
+    .healty {
+        padding: 50px;
+        /*background-color: rgba(255, 255, 255,0.5);*/
+        background-color:transparent;
+        margin-bottom: 10px;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    .articaltittle {
+        font-family: 'Grandstander-clean';
+        /*        color: #f00;*/
+        color: #000;
+        position: relative;
+        left: -20px;
+        top :-55px;
+        font-size: 22px;
+    }
+    .articalreadmore {
+        font-family: 'granlin';
+        /*        color: #f00;*/
+        color: #000;
+        font-weight: bold;
+        position: relative;
+        left: -20px;
+        top :-60px;
+        font-size: 12px;
+        text-align: left; 
+        margin-bottom: -70px;
+    }
+    .articalmore {
+        font-family: 'granlin';
+        /*        color: #f00;*/
+        color: #000;
+        font-weight: bold;
+        position: relative;
+        left: -20px;
+        top :10px;
+        font-size: 12px;
+        text-align: left; 
+
+    }
+    .footerhome {
+        margin-top: -160px;
+
+    }
+    .cont_products {
+        padding-top: 0px;
+        padding-bottom: -250px;
+        font-size: 20px;
+    }
+    .bodyprimary
+    {
+        /*        background-image: url('/images/Perkedelku-Web-MIDBACKGROUNDx.png');*/
+        border:0;
+    }
+    .paddingfooter {
+        margin-top: 0px;
+        margin-left : -20px;
+    }
+    .blisfull {
+        font-family: 'blisfull';
+        color: #D10824;
+        margin-left: 0px;
+    }
+    button.nutrijell {
+        font-family: 'andada';
+        background-color: #d10824;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border:0px;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-right: -30px;
+    }
+    button.subscribe {
+        font-family: 'andada';
+        background-color: #d10824;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border:0px;
+        border-radius: 5px;
+        /*        margin-top: 0px;
+                margin-right: 150px;*/
+        position: relative;
+        left: 0px;
+    }
+    input.custom, select.custom {
+        height: 34px;
+        padding: 0px 12px;
+        font-size: 12px;
+        line-height: 1.42857143;
+        color: #555555;
+        background-color: #ffffff;
+        background-image: none;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    .imagecontent {
+        width: 70%;
+        margin-left: 30px;
+    }
+    .spacecontent {
+        margin-top: 40px;
+    }
+    .kentangimg {
+        position:absolute; 
+        top:-10px;
+        left:200px;
+        -ms-transform: rotate(5deg);  
+        -ms-transform-origin: 20% 40%;  
+        -webkit-transform: rotate(5deg);   
+        -webkit-transform-origin: 20% 40%;  
+        transform: rotate(5deg);
+        transform-origin: 20% 40%;
+    }
+    .kentangsize{
+        width: 75%;
+    }
+    .paddingmid {
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-right: -50px;
+
+    }
+    .textlogin {
+        font-family: 'granlin';
+        /*    color: #D10824;*/
+        color: #000;
+        font-size: 14px;
+        align-content: center;
+    }
+    .itemzoom {
+        position: relative;
+        margin-top: -8px;
+        margin-left: -100px;
+        overflow: hidden;
+
+
+    }
+    .itemzoom img {
+        max-width: 50%!important;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+
+    }
+    .itemzoom:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .imagearrow {
+
+        width: 30%;
+        padding-top: 50px;
+        padding-left: -10px;
+
+
+    }
+    .imagearrowleft {
+
+        width: 30%;
+        padding-top: 50px;
+        padding-left: -10px;
+
+    }
+    .videoclass {
+        position:absolute;
+        top: 1160px;
+        left: 40px;
+    }
+    .vdc {
+        width: 40%;
+    }
+    .imgcontent{
+        width: 100%;
+        margin-top: -100px;
+    }
+    .blisfull {
+        font-family: 'blisfull';
+        color: #000;
+    }
+    .blisfull4 {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 14px;
+        margin-top: -75px;
+    }
+    .blisfull5 {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 10px;
+        margin-top: -20px;
+    }
+    .blisfull6 {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 14px;
+        position: relative;
+        top: -50px;
+        left: 5px;
+    }
+    .readmoreblisfull {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 10px;
+        position: relative;
+        top: -5px;
+    }
+    .titlearticleblisfull {
+        font-family: 'granlin';
+        color: #000;
+        font-size: 14px;
+        margin-top: -65px;
+    }
+    .paddingtopcontent{
+        padding-top: 120px;
+    }
+    .paddingtopcontentdetail{
+        padding-top: 0px;
+        padding-left:0px;
+    }
+    .detailimg {
+        padding-top: 0px;
+        margin-top: 80px;
+        width: 300px;
+        height: 300px;
+        margin-bottom: -50px;
+        margin-left: 20px;
+    }
+    h1.lobster4{
+        font-family: 'granlin';
+        color: #000;
+        font-size: 25px;
+        margin-top: 20px;
+        /*        padding-bottom: 20px;*/
+    }
+    .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        /*        background-image: url('/images/Perkedelku-Web-MIDBACKGROUND.png');*/
+    }
+    .preloader .loading {
+        position:absolute; 
+        top:-25px;
+        left:690px;
+        /*    -ms-transform: rotate(20deg);  
+            -ms-transform-origin: 20% 40%;  
+            -webkit-transform: rotate(20deg);   
+            -webkit-transform-origin: 20% 40%;  
+            transform: rotate(20deg);
+            transform-origin: 20% 40%;*/
+        -ms-transform: rotate(5deg);  
+        -ms-transform-origin: 20% 40%;  
+        -webkit-transform: rotate(5deg);   
+        -webkit-transform-origin: 20% 40%;  
+        transform: rotate(5deg);
+        transform-origin: 20% 40%;
+    }
+    img.logoicon3 {
+        width: 60%;
+        position: relative;
+        top: 6px;
+        left: -2px;
+        /*    margin-left: -10px;
+            margin-top: 50px;*/
+        /*    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            z-index: 99;*/
+    }
+    input[class=expand] {
+        width: 35px;
+        border: none;
+        border-radius: 4px;
+        height: 35px;
+        font-size: 16px!important;
+        padding-left : 42px!important;
+        background-color: #D10824;
+        background-image: url('/images/Perkedelku-Web-SEARCHedit.png');
+        background-repeat: no-repeat; 
+        background-size: 42px 42px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        margin-left: 0px!important;
+        margin-top: 0px!important;
+        position: relative;
+        top: -47px;
+        left: -23px;
+        color: #fff;
+    }
+    input[class=expand]:focus {
+        width: 100%;
+    }
+
+    input[class=expand]::placeholder {
+        color: #fff;
+        opacity: 0.5;
+        text-align: center;
+        font-size: 16px!important;
+    }
+    .video {
+        position: relative;
+        top: 100px;
+        left: -28px;
+        width: 125%;
+        height: 50%;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+    .topimage {
+        position: relative;
+        left: 5px;  
+    }
+}
+@media (min-width: 375px)and (max-width: 412px) {
+    font-family: 'andada';
+    background-color: #d10824;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border:0px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: -3px;
+
+}
